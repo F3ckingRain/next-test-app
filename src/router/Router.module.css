@@ -1,0 +1,29 @@
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  padding: 0 50px;
+
+  min-height: 52px;
+
+  background-color: #f6f6f6;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+
+  list-style: none;
+}
+
+.navbar__item {
+  padding: 8px;
+}
+
+.navbar__item a {
+  color: #2e76e2;
+
+  text-decoration: none;
+}
