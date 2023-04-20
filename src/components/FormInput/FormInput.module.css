@@ -1,0 +1,31 @@
+.formInputContainer {
+  max-width: 250px;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+}
+.input {
+  margin-top: 12px;
+  padding: 8px 16px;
+
+  min-width: 200px;
+
+  border: 1px solid #bdbdbd;
+  border-radius: 4px;
+
+  outline: none;
+}
+.input:focus::placeholder {
+  color: transparent;
+}
+.input__red {
+  border: 1px solid #e74343;
+}
+
+.redColor {
+  color: #e74343;
+}
