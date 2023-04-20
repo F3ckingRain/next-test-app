@@ -1,0 +1,20 @@
+.idBlock {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.copyBtn {
+  width: 20px;
+  height: 20px;
+
+  border: none;
+
+  background-color: transparent;
+  background-image: url("../../../assets/icons/copy.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+
+  cursor: pointer;
+}

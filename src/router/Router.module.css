@@ -1,13 +1,17 @@
 .navigation {
+  position: fixed;
+  top: 0;
+
   display: flex;
   align-items: center;
   justify-content: flex-start;
 
   padding: 0 50px;
 
+  width: calc(100% - 100px);
   min-height: 52px;
 
-  background-color: #f6f6f6;
+  background-color: #fefefe;
 }
 
 .navbar {
